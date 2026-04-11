@@ -11,7 +11,7 @@ function App() {
     return (
         <>
             <AuthProvider>
-                <HashRouter basename="/react-auth-lab">
+                <HashRouter>
                     <Routes>
                         {/*  protected route */}
                         {/* <Route path="/" element={<Home />} /> */}
